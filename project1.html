@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 - My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation arrows -->
+    <div class="nav-arrows">
+        <a href="about.html" class="arrow prev" aria-label="Previous Page">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a href="project2.html" class="arrow next" aria-label="Next Page">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+
+    <!-- Main content -->
+    <main>
+        <h1>Project 1: Logic Gates Simulator</h1>
+        <p>This project demonstrates how logic gates function as the fundamental building blocks of digital systems. By using basic gates such as AND, OR, and NOT, we show how binary inputs are processed to produce logical outputs.</p>
+        <img src="img/project1.jpg" alt="Logic Gates Simulator Screenshot" style="max-width: 50%; height: auto; border-radius: 8px; margin: 20px 0;">
+        <ul>
+            <li>The aim of this project is to explain the operation of logic gates and their role in modern electronics. Through practical examples and truth tables, we illustrate how logic gates are used in computers and everyday digital devices.</li>
+            <li>In this project, we explore how logic gates control the flow of information using binary logic. The results highlight their importance in designing efficient and reliable digital circuits.</li>
+        </ul>
+        <ul class="links">
+            <li>
+                <a href="index.html">
+                    <i class="fa-solid fa-home fa-fw"></i> Back to Home
+                </a>
+            </li>
+            <li>
+                <a href="project2.html">
+                    <i class="fa-solid fa-arrow-right fa-fw"></i> Next Project
+                </a>
+            </li>
+        </ul>
+    </main>
+
+    <!-- Page indicator -->
+    <div class="page-indicator" id="page-indicator">
+        <a href="index.html" class="dot"></a>
+        <a href="about.html" class="dot"></a>
+        <span class="dot active"></span>
+        <a href="project2.html" class="dot"></a>
+    </div>
+
+    <!-- Easter egg -->
+    <img id="easter-egg" class="fluffy-circle" src="img/ellipse.svg" alt="A fluffy ellipse.">
+
+    <script src="design.js"></script>
+</body>
+</html>
